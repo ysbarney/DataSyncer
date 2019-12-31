@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<mysql host="127.0.0.1_4001" user="test" passwd="test" enableGTID="false" flavor="mysql" />
+	<zookeeper iplist="127.0.0.1:2181" zkrootdir="/noshard1" timeout="10000" />
+	<log dir="../log" size="5000000" />
+</config>
